@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-            System.out.println("Введите выражение из 2-х целых чисел от 1 до 10 (римские или арабские), в котором будет только 1 арифметический оператор + - * /. Примеры: Х - IV, 10 * 9 и т.п.");
+            System.out.println("Enter 2 integers from 1 to 10 (roman or arabic) and the only 1 operator: + - * /  Samples: Х - IV, 10 * 9 etc.");
             String instring = new Scanner(System.in).nextLine();
             // System.out.println("Вы ввели: " + instring);
             StringSplitter.split(instring);
