@@ -34,6 +34,7 @@ public class Main {
 
                             String final_result = Calculator.operation(part1, part2, symbol, NumOrWord);
                             System.out.println(final_result);
+                    System.exit(0);
                     } // switch symbol
 
                 case "word":
@@ -45,7 +46,7 @@ public class Main {
                             throw new Exception("деление или умножение между строками невозможно");
 
                         case '-':
-                        case '=':
+                        case '+':
 
                             String final_result = Calculator.operation(part1, part2, symbol, NumOrWord);
                             System.out.println(final_result);
