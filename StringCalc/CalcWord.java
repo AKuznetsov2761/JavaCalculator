@@ -13,7 +13,8 @@ public class CalcWord {
 
             case '-':
                 if (p1.contains(p2)) {
-                    return p1.substring(0, p1.length() - p2.length());
+                    return p1 = p1.replaceAll(p2, "");
+                    // p1.substring(0, p1.length() - p2.length());
                 }
                 return p1;
 
